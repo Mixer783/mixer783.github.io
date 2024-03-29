@@ -1,0 +1,204 @@
+body{
+    background: url(fondo.jpg);
+}
+.banner{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    z-index: 99;
+    height: 130px;
+}
+.logo{
+    margin-left: 20px;
+}
+.nav{
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    width: 1560px;
+}
+.navbotones{
+    background: none;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.titulo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+}
+.titulo1{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.projectos{
+    height: 200px;
+    width: 350px;
+    place-items: center;
+    display: grid;
+    margin: auto;
+    margin-top: 20px;
+}
+.projectos1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    place-items: center;
+    display: grid;
+}
+.projectos2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    place-items: center;
+    display: grid;
+}
+.projectos3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    place-items: center;
+    display: grid;
+}
+.projectos4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    place-items: center;
+    display: grid;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+body {
+    background: url(fondo.jpg);
+    margin: 0;
+}
+
+.banner {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    height: 130px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.nav {
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    max-width: 1560px;
+    margin: 0 auto;
+}
+
+.navbotones {
+    background: none;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.titulo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+}
+
+.titulo1 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projectos {
+    height: 200px;
+    width: 350px;
+    place-items: center;
+    display: grid;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.projectos1, .projectos2, .projectos3, .projectos4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    place-items: center;
+    display: grid;
+}
+
+/* Ajustes para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo {
+        margin-top: 50px;
+        font-size: 20px; /* Reducir el tamaño del título en dispositivos móviles */
+    }
+    .projectos {
+        width: 300px; /* Reducir el ancho de la sección de proyectos en dispositivos móviles */
+    }
+}
+
+/* Ajustes para tabletas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .banner {
+        height: 100px;
+    }
+    .nav {
+        max-width: 1024px;
+    }
+    .titulo {
+        margin-top: 100px;
+        font-size: 25px; /* Reducir el tamaño del título en tabletas */
+    }
+}
+
+/* Ajustes para pantallas más grandes */
+@media only screen and (min-width: 1024px) {
+    .titulo {
+        margin-top: 150px;
+    }
+    .botones {
+        margin-top: 50px;
+    }
+    .projectos {
+        width: 450px; /* Ajustar el ancho de la sección de proyectos en pantallas grandes */
+    }
+}

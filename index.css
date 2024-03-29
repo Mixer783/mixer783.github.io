@@ -1,0 +1,381 @@
+body{
+    background: url(fondo.jpg);
+}
+.banner{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    z-index: 99;
+    height: 130px;
+}
+.logo{
+    margin-left: 20px;
+}
+.nav{
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    width: 1560px;
+}
+.navbotones{
+    background: none;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.titulo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+}
+.texto{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo1{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255,255,255,.5);
+}
+.descripcion{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -30px;
+}
+
+.descripcion2{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.botones{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+/* BOTON 1 */
+
+.menuboton1{
+        color: #FFF;
+        border: 2px solid rgb(112, 5, 71);
+        border-radius: 0px;
+        padding: 18px 36px;
+        display: inline-block;
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 14px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #D80286;
+        -webkit-transition: ease-out 0.4s;
+        -moz-transition: ease-out 0.4s;
+        transition: ease-out 0.4s;
+        background: none;
+      }
+      .menuboton1:hover {
+        box-shadow: inset 0 100px 0 0 #029bd8;
+}
+
+/* BOTON 2 */
+
+.menuboton2{
+    color: #FFF;
+    border: 2px solid rgb(112, 5, 71);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    background: none;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .menuboton2:hover {
+    box-shadow: inset 0 100px 0 0 #029bd8;
+}
+
+/* BOTON 3 */
+
+.menuboton3{
+    color: #FFF;
+    border: 2px solid rgb(112, 5, 71);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    background: none;
+  }
+  .menuboton3:hover {
+    box-shadow: inset 0 100px 0 0 #029bd8;
+}
+.espacio{
+    margin-top: 400px;
+}
+.final1{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.final2{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1600px;
+    margin-top: -40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+body {
+    background: url(fondo.jpg);
+    margin: 0; /* Añadido para evitar espacios innecesarios */
+}
+
+.banner {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    height: 130px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.nav {
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    max-width: 1560px; /* Cambiado de width a max-width */
+    margin: 0 auto; /* Centrar el menú en pantallas grandes */
+}
+
+/* Ajustes para tamaños de pantalla pequeños */
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column; /* Cambiar a columna para dispositivos móviles */
+        align-items: center; /* Centrar los elementos */
+    }
+}
+
+.navbotones {
+    background: none;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.titulo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+}
+
+.texto {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo1 {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, .5);
+}
+
+.descripcion {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -30px;
+}
+
+.descripcion2 {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.botones {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+/* Estilos para botones */
+.menuboton {
+    color: #FFF;
+    border: 2px solid rgb(112, 5, 71);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    background: none;
+}
+
+.menuboton:hover {
+    box-shadow: inset 0 100px 0 0 #029bd8;
+}
+
+.espacio {
+    margin-top: 400px;
+}
+
+.final1 {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.final2 {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1600px;
+    margin-top: -40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+body {
+    background: url(fondo.jpg);
+    margin: 0;
+}
+
+.banner {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    height: 130px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.nav {
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    max-width: 1560px;
+    margin: 0 auto;
+}
+
+/* Ajustes para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo {
+        margin-top: 50px; /* Reducir el espacio entre el banner y el título */
+    }
+}
+
+/* Ajustes para tabletas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .banner {
+        height: 100px; /* Reducir la altura del banner */
+    }
+    .nav {
+        max-width: 1024px; /* Ajustar el ancho máximo de la barra de navegación */
+    }
+    .titulo {
+        margin-top: 100px; /* Ajustar el espacio entre el banner y el título */
+    }
+}
+
+/* Ajustes para pantallas más grandes */
+@media only screen and (min-width: 1024px) {
+    .titulo {
+        margin-top: 150px; /* Mantener el espacio entre el banner y el título */
+    }
+    .botones {
+        margin-top: 150px; /* Ajustar el espacio entre el título y los botones */
+    }
+    .final2 {
+        margin-left: 1400px; /* Ajustar la posición del elemento final2 en pantallas más grandes */
+    }
+}

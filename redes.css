@@ -1,0 +1,288 @@
+body{
+    background: url(fondo.jpg);
+}
+.banner{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    z-index: 99;
+    height: 130px;
+}
+.logo{
+    margin-left: 20px;
+}
+.nav{
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    width: 1560px;
+}
+.navbotones{
+    background: none;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.titulo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+}
+.texto{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botones{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+/* BOTON 1 */
+
+.link1{
+    color: #FFF;
+    border: 2px solid rgb(112, 5, 71);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    background: none;
+  }
+  .link1:hover {
+    box-shadow: inset 0 100px 0 0 #029bd8;
+}
+
+/* BOTON 2 */
+
+.link2{
+    color: #FFF;
+    border: 2px solid rgb(112, 5, 71);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    background: none;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .link2:hover {
+    box-shadow: inset 0 100px 0 0 #029bd8;
+}
+
+/* BOTON 3 */
+
+.link3{
+    color: #FFF;
+    border: 2px solid rgb(112, 5, 71);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    background: none;
+  }
+  .link3:hover {
+    box-shadow: inset 0 100px 0 0 #029bd8;
+}
+
+/* BOTON 4 */
+
+.link4{
+    color: #FFF;
+    border: 2px solid rgb(112, 5, 71);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    background: none;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .link4:hover {
+    box-shadow: inset 0 100px 0 0 #029bd8;
+}
+
+/* BOTON 5 */
+
+.link5{
+    color: #FFF;
+    border: 2px solid rgb(112, 5, 71);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    background: none;
+  }
+  .link5:hover {
+    box-shadow: inset 0 100px 0 0 #029bd8;
+}
+
+.link6{
+  color: #FFF;
+  border: 2px solid rgb(112, 5, 71);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  background: none;
+  margin-left: 5px;
+}
+.link6:hover {
+  box-shadow: inset 0 100px 0 0 #029bd8;
+}
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+body {
+  background: url(fondo.jpg);
+  margin: 0;
+}
+
+.banner {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+  height: 130px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.nav {
+  align-items: end;
+  justify-content: end;
+  display: flex;
+  max-width: 1560px;
+  margin: 0 auto;
+}
+
+/* Ajustes para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  .nav {
+      flex-direction: column;
+      align-items: center;
+  }
+  .titulo {
+      margin-top: 50px;
+  }
+  .botones {
+      margin-top: 30px; /* Ajustar el espacio entre el título y los botones en dispositivos móviles */
+  }
+}
+
+/* Ajustes para tabletas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .banner {
+      height: 100px;
+  }
+  .nav {
+      max-width: 1024px;
+  }
+  .titulo {
+      margin-top: 100px;
+  }
+}
+
+/* Ajustes para pantallas más grandes */
+@media only screen and (min-width: 1024px) {
+  .titulo {
+      margin-top: 150px;
+  }
+  .botones {
+      margin-top: 50px; /* Ajustar el espacio entre el título y los botones en pantallas grandes */
+  }
+  .final2 {
+      margin-left: 1400px;
+  }
+}
+
+/* Ajustes para los botones */
+.link {
+  color: #FFF;
+  border: 2px solid rgb(112, 5, 71);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  background: none;
+}
+
+.link:hover {
+  box-shadow: inset 0 100px 0 0 #029bd8;
+}
+
+/* Ajustes para el último botón */
+.link:last-child {
+  margin-left: 5px; /* Ajustar el espacio entre el último botón y el resto de los botones */
+}
